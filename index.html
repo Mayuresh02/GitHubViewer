@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GitHub Profile Viewer</title>
+        <meta name="viewpoer" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/x-icon" href="octocat.png">
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script> <!--By using defer we tell browser that load the script after body loaded on dom-->
+    </head>
+    <body>
+        
+        <form id="form" onsubmit="return formSubmit()">
+            <input type="text" id="search" autofocus autocomplete="off" placeholder="Enter GitHub Username">
+        </form>
+
+        <div id="main"></div>
+
+    </body>
+</html>
