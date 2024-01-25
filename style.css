@@ -48,7 +48,7 @@ input:focus
     background-color: #4c2885;
     display: flex;
     min-width: 800px;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 50px;
     border-radius: 15px;
     border: 4px solid #fff;
